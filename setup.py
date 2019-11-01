@@ -1,23 +1,47 @@
 # -*- coding: utf-8 -*-
-"""
-    Setup file for dank_meme.
-    Use setup.cfg to configure your project.
+from setuptools import find_packages
+from dadjokes import (
+	__version__,
+	__title__,
+    __description__,
+    __author__,
+    __author_email__
+)
+with open("README.md", "r") as f:
+    readme = f.read()
 
-    This file was generated with PyScaffold 3.2.1.
-    PyScaffold helps you to put up the scaffold of your new Python project.
-    Learn more under: https://pyscaffold.org/
-"""
-import sys
+requires = [
+    "Click==7.0",
+    "beautifulsoup4==4.8.1",
+    "cowpy==1.1.0",
+    "requests==2.22.0"
+]
+dev_requires = ["pytest==5.2.2"]
+dev_requires = dev_requires + requires
 
-from pkg_resources import VersionConflict, require
-from setuptools import setup
 
-try:
-    require('setuptools>=38.3')
-except VersionConflict:
-    print("Error: version of setuptools is too old (<38.3)!")
-    sys.exit(1)
+def setup_package():
+    metadata = dict(
+        name=__title__,
+        version= __version__,
+        description=__description__,
+        long_description=readme,
+        long_description_content_type="text/markdown",
+        author=__author__,
+        author_email = __author_email__,
+        packages=find_packages(exclude=("tests",)),
+        install_requires=requires,
+        extras_require={"dev": dev_requires},
+        entry_points={"console_scripts": ["dadjoke = dadjokes.cli:cli"]},
+    )
+
+    try:
+        from setuptools import setup
+    except ImportError:
+        from distutils.core import setup
+
+    setup(**metadata)
 
 
 if __name__ == "__main__":
-    setup(use_pyscaffold=True)
+    setup_package()

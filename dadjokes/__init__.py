@@ -1,0 +1,5 @@
+__version__ = '0.1.0'
+__title__ = 'dadjokes-cli'
+__description__ = 'Dad Jokes on your Terminal'
+__author__ = 'sangarshanan'
+__author_email__= 'sangarshanan1998@gmail.com'
