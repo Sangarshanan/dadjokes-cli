@@ -9,13 +9,13 @@
 
 All the jokes that make you laugh and cringe in equal measure right on your Terminal
 
-### Just install 
+###  Installation 
 
 ```
 pip install dadjokes-cli
 ```
 
-### Just Dad jokes
+### Only Dad jokes
 
 ![img](https://i.imgur.com/jWrVzTJ.png)
 
