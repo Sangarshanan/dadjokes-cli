@@ -9,16 +9,26 @@
 
 All the jokes that make you laugh and cringe in equal measure right on your Terminal
 
-### Just install 
+###  Installation 
 
 ```
 pip install dadjokes-cli
 ```
 
-### Just Dad jokes
+### Only Dad jokes
 
 ![img](https://i.imgur.com/jWrVzTJ.png)
 
 ### Dad jokes + [Cowsay](https://github.com/jeffbuttars/cowpy)
 
 ![img](https://i.imgur.com/oRuIpTF.png)
+
+
+### Sources
+
+- https://github.com/wesbos/dad-jokes/blob/master/readme.md
+- https://www.reddit.com/r/dadjokes/ [TODO]
+- https://www.reddit.com/r/ProgrammerDadJokes/ [TODO]
+- https://icanhazdadjoke.com/ [TODO]
+
+Maybe More
