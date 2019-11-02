@@ -1,4 +1,4 @@
-__version__ = '0.1.1'
+__version__ = '0.1.2'
 __title__ = 'dadjokes-cli'
 __description__ = 'Dad Jokes on your Terminal'
 __author__ = 'sangarshanan'
