@@ -23,12 +23,24 @@ pip install dadjokes-cli
 
 ![img](https://i.imgur.com/oRuIpTF.png)
 
+### How'd you like your Dad jokes ?
+
+Groaning 
+
+Choose from reddit, github or icanhazdad 
+
+```
+dadjoke --reddit --cowsay
+dadjoke --github --cowsay
+dadjoke --icanhazdad --cowsay
+
+```
+
 
 ### Sources
 
 - https://github.com/wesbos/dad-jokes/blob/master/readme.md
-- https://www.reddit.com/r/dadjokes/ [TODO]
-- https://www.reddit.com/r/ProgrammerDadJokes/ [TODO]
-- https://icanhazdadjoke.com/ [TODO]
+- https://www.reddit.com/r/dadjokes/ 
+- https://icanhazdadjoke.com/ 
 
-Maybe More
+Maybe More...
