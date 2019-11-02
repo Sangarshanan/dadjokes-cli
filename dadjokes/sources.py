@@ -29,7 +29,7 @@ def get_icanhazdadjoke():
 def get_post_reddit(subreddit):
     try:
         params = (('limit', '10'),)
-        response = requests.get(f'https://www.reddit.com/r/{subreddit}/top/.json', params=params)
+        response = requests.get('https://www.reddit.com/r/{}/top/.json'.format(subreddit), params=params)
         p = response.json()
         dadjokes = [value['data']['title'] + '\n' + value['data']['selftext']
          for value in p['data']['children']]
