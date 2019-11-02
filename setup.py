@@ -14,7 +14,8 @@ requires = [
     "Click==7.0",
     "beautifulsoup4==4.8.1",
     "cowpy==1.1.0",
-    "requests==2.22.0"
+    "requests==2.22.0",
+    "cachetools==3.1.1"
 ]
 dev_requires = ["pytest==5.2.2"]
 dev_requires = dev_requires + requires
