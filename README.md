@@ -1,3 +1,5 @@
+[![Downloads](https://pepy.tech/badge/dadjokes-cli)](https://pepy.tech/project/dadjokes-cli)
+
 
 <p align="center">
    <img src="https://media1.giphy.com/media/3Jph0n155nmc8/source.gif">
