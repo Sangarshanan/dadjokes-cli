@@ -1,4 +1,3 @@
-[![Downloads](https://pepy.tech/badge/dadjokes-cli)](https://pepy.tech/project/dadjokes-cli)
 
 
 <p align="center">
@@ -6,15 +5,20 @@
 </p>
 
 
-## dadjokes-cli : Dad Jokes on your Terminal
+## dadjokes-cli : Dad Jokes on your Terminal  [![Downloads](https://pepy.tech/badge/dadjokes-cli)](https://pepy.tech/project/dadjokes-cli)
+
 
 All the jokes that make you laugh and cringe in equal measure right on your Terminal
+
+
 
 ###  Installation 
 
 ```
 pip install dadjokes-cli
 ```
+
+
 
 ### Only Dad jokes
 
