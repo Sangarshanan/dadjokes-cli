@@ -3,6 +3,7 @@ from setuptools import find_packages
 from dadjokes import (
 	__version__,
 	__title__,
+    __url__,
     __description__,
     __author__,
     __author_email__
@@ -30,6 +31,7 @@ def setup_package():
         long_description_content_type="text/markdown",
         author=__author__,
         author_email = __author_email__,
+        url = __url__,
         packages=find_packages(exclude=("tests",)),
         install_requires=requires,
         extras_require={"dev": dev_requires},
