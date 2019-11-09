@@ -26,7 +26,7 @@ pip install dadjokes-cli
 ![img](https://i.imgur.com/fyNYAIf.png)
 
 
-### Pipe input to [Cowsay](https://github.com/jeffbuttars/cowpy)
+### CowDad with [Cowsay](https://github.com/jeffbuttars/cowpy)
 
 
 
