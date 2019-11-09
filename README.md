@@ -22,7 +22,8 @@ pip install dadjokes-cli
 
 ### Only Dad jokes
 
-![img](https://i.imgur.com/jWrVzTJ.png)
+
+![img](https://i.imgur.com/fyNYAIf.png)
 
 ### Dad jokes + [Cowsay](https://github.com/jeffbuttars/cowpy)
 
