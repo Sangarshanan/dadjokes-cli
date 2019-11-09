@@ -25,9 +25,12 @@ pip install dadjokes-cli
 
 ![img](https://i.imgur.com/fyNYAIf.png)
 
-### Dad jokes + [Cowsay](https://github.com/jeffbuttars/cowpy)
 
-![img](https://i.imgur.com/oRuIpTF.png)
+### Pipe input to [Cowsay](https://github.com/jeffbuttars/cowpy)
+
+
+
+![img](https://i.imgur.com/Uk0AzgF.png)
 
 
 ### Grab the top posts r/DadJokes
