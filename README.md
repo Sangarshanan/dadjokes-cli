@@ -1,19 +1,24 @@
 
+
 <p align="center">
    <img src="https://media1.giphy.com/media/3Jph0n155nmc8/source.gif">
 </p>
 
 
+## dadjokes-cli : Dad Jokes on your Terminal  [![Downloads](https://pepy.tech/badge/dadjokes-cli)](https://pepy.tech/project/dadjokes-cli)
 
-## dadjokes-cli : Dad Jokes on your Terminal
 
 All the jokes that make you laugh and cringe in equal measure right on your Terminal
+
+
 
 ###  Installation 
 
 ```
 pip install dadjokes-cli
 ```
+
+
 
 ### Only Dad jokes
 
@@ -23,18 +28,24 @@ pip install dadjokes-cli
 
 ![img](https://i.imgur.com/oRuIpTF.png)
 
-### How'd you like your Dad jokes ?
 
-Groaning 
+### Grab the top posts r/DadJokes
 
-Choose from reddit, github or icanhazdad 
 
 ```
 dadjoke --reddit --cowsay
-dadjoke --github --cowsay
-dadjoke --icanhazdad --cowsay
+```
+![img](https://i.imgur.com/oBONe8y.png)
+
+### Also get it from icanhazdadjoke or https://github.com/wesbos/dad-jokes
+
 
 ```
+dadjoke --github --cowsay
+dadjoke --icanhazdad --cowsay
+```
+
+# Happy Groaning
 
 
 ### Sources
